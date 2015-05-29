@@ -29,7 +29,15 @@ var mycity = remote_ip_info['city']
 var mydistrict = remote_ip_info['district'];
 var mycountry = remote_ip_info['country'];
 
-alert("当前访问IP地址为："+mycountry+"-"+myprovince+"-"+mycity);
+alert("当前访问IP地址为："+mycountry+"-"+myprovince+"-"+mycity+",要跳转到"+mycity+"移动了。");
+
+if(mycity='北京')
+{window.open('http://www.he.10086.cn/index/','newwindow','height=500,width=900,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');}
+else if(mycity='邯郸')
+{
+window.open('http://www.he.10086.cn/index/','newwindow','height=500,width=900,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
+}
+//alert("当前访问IP地址为："+mycountry+"-"+myprovince+"-"+mycity+",要跳转到"+mycity+"移动了。");
 
 </script>
 <script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?move=0&amp;uid=903173" charset="utf-8"></script>
