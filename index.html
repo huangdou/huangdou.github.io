@@ -31,11 +31,11 @@ var mycountry = remote_ip_info['country'];
 
 alert("当前访问IP地址为："+mycountry+"-"+myprovince+"-"+mycity+",要跳转到"+mycity+"移动了。");
 
-if(mycity.indexof('北京')!=-1)
+if(mycity.indexOf('北京')!=-1)
 {
 	alert("北京来了");
 	window.open('http://www.bj.10086.cn/','newwindow','height=500,width=900,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');}
-else if(mycity.indexof('邯郸')!=-1)
+else if(mycity.indexOf('邯郸')!=-1)
 {
 	alert("邯郸来了");
 window.open('http://www.he.10086.cn/','newwindow','height=500,width=900,top=0,left=0,toolbar=no,menubar=no,scrollbars=no, resizable=no,location=no, status=no');
